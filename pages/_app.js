@@ -1,8 +1,9 @@
-import '../styles/globals.css'
+import '../styles/globals.scss'
 import Layout from '../components/layout/layout'
 
 function MyApp({ Component, pageProps }) {
-  return <Layout><Component {...pageProps} /></Layout> 
+  // return <Layout><Component {...pageProps} /></Layout> 
+  return <main><Component {...pageProps} /></main>;
 }
 
 export default MyApp;
